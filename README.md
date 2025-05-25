@@ -10,7 +10,7 @@ python3나 필요한 것들 다운하는 명령어
 <details>
 <summary><strong>[Click to expand]</strong></summary>
 This project uses a wildlife image dataset provided by AIHub, a public data platform operated by the Korean government.  
-Due to license and privacy restrictions, the dataset is __ not included in this repository __ and must be downloaded manually by the user.
+Due to license and privacy restrictions, the dataset is  **not included in this repository**  and must be downloaded manually by the user.
 
 - Source: [AIHub - Wildlife Image Dataset](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=645)
 - Description: Images of 11 wild animal species (e.g., boar, roe deer) captured by infrared and normal cameras
