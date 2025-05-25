@@ -4,13 +4,16 @@ ResNet18 모델 사용한 고라니와 노루 fine-grained and data imbalance �
 ## Process
 ### 0. Installation
 #### 0-1. Requirements
+`
 - Python 3.10.12
 - PyTorch >= 1.13.0
 - torchvision >= 0.14.0
 - torchmetrics >= 0.11.0
 - Pillow >= 9.0.0
 - tqdm >= 4.64.0
-#### 0-2. AIhub dataset
+`
+> All necessary packages are listed in `requirements.txt`.
+#### 0-2. AIhub Dataset
 <details>
 <summary><strong>[Click to expand]</strong></summary>
 This project uses a wildlife image dataset provided by AIHub, a public data platform operated by the Korean government.  
@@ -43,7 +46,7 @@ project_root/
 ```
 git clone https://github.com/lxxsxoh/Test-using-ResNet18-for-fine-grained-problem.git
 ```
-### 2. 폴더 확인, requiremet 다운
+### 2. 폴더 확인, requirement 다운
 ```
 ls Test-using-ResNet18-for-fine-grained-problem
 ```
