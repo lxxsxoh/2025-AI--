@@ -81,6 +81,7 @@ project_root/
   │ ├── train/
   │ └── valid/
 ```
+> test
 ```
 python3 [파일명(예: test)].py [OPTIONS]
 ```
