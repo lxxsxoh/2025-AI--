@@ -38,6 +38,7 @@ project_root/
 This dataset is provided **for non-commercial, research purposes only**.  
 Please make sure to review and comply with the AIHub [Terms of Use](https://www.aihub.or.kr/guide/terms) before using the data in your project or publication.
 </details>
+
 ### 1. git clone
 ```
 git clone https://github.com/lxxsxoh/Test-using-ResNet18-for-fine-grained-problem.git
