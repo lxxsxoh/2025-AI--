@@ -45,13 +45,16 @@ project_root/
 ```
 git clone https://github.com/lxxsxoh/Test-using-ResNet18-for-fine-grained-problem.git
 ```
-### 2. 폴더 확인, requirement 다운
+### 2. Setting
+> 폴더 확인
 ```
 ls Test-using-ResNet18-for-fine-grained-problem
 ```
+> 해당 폴더 접속
 ```
 cd Test-using-ResNet18-for-fine-grained-problem
 ```
+> install requirements
 ```
 pip install -r requirements.txt
 ```
