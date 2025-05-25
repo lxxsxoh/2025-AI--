@@ -64,7 +64,7 @@ python3 [파일명(예: train].py [OPTIONS]
 |--batch_size|int|64|배치사이즈|
 |--num_workers|int|4|사용할 core 수|
 |--비율|int|1|고라니 대비 노루 데이터 비율(또는 수?)|
-### 4. Test Using pretrained model (별도의 train 없이 pretrianed model 사용하여 test만)
+### 4. Test Using pretrained model (별도의 train 없이 pretrained model 사용하여 test만)
 ```
 python3 [파일명(예: test)].py [OPTIONS]
 ```
