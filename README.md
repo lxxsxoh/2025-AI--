@@ -6,6 +6,40 @@ ResNet18 모델 사용한 고라니와 노루 fine-grained and data imbalance �
 `
 python3나 필요한 것들 다운하는 명령어
 `
+#### 0-1. AIhub dataset
+<details>
+<summary><strong>🌐 English (Click to expand)</strong></summary>
+`
+This project uses a wildlife image dataset provided by AIHub, a public data platform operated by the Korean government.  
+Due to license and privacy restrictions, the dataset is **not included in this repository** and must be downloaded manually by the user.
+
+- Source: [AIHub - Wildlife Image Dataset](https://www.aihub.or.kr/aihubdata/data/view.do?dataSetSn=53)
+- Description: Images of 11 wild animal species (e.g., boar, roe deer) captured by infrared and normal cameras
+- Purpose: For training and evaluating image classification models
+`
+##### 1) How to download
+1. Go to the [AIHub dataset page](https://www.aihub.or.kr/aihubdata/data/view.do?dataSetSn=53)
+2. Sign up and log in
+3. Agree to the terms of use and request access
+4. Download the provided dataset file (usually in .zip format)
+
+##### 2) Directory structure (example)
+After extracting the dataset, please organize it as follows:
+project_root/
+├── data/
+│ ├── train/
+│ │ ├── class_01_boar/
+│ │ ├── class_02_roe_deer/
+│ │ └── ...
+│ ├── valid/
+│ └── test/
+※ You may need to manually split the data into train/validation/test sets and rename folders accordingly.  
+※ If a preprocessing script (e.g., `prepare_dataset.py`) is provided, you can automate this step.
+</details>
+##### 3) License Notice
+This dataset is provided **for non-commercial, research purposes only**.  
+Please make sure to review and comply with the AIHub [Terms of Use](https://www.aihub.or.kr/guide/terms) before using the data in your project or publication.
+
 ### 1. git clone
 ```
 git clone https://github.com/lxxsxoh/Test-using-ResNet18-for-fine-grained-problem.git
