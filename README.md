@@ -6,13 +6,21 @@ ResNet18 모델 사용한 고라니와 노루 fine-grained and data imbalance �
 `
 python3나 필요한 것들 다운하는 명령어
 `
-#### 0-1. AIhub dataset
+#### 0-1. Requirements
+'''
+pip install -r requirements.txt
+'''
+- Python 3.10.12
+- PyTorch >= 1.13.0
+- torchvision >= 0.14.0
+- torchmetrics >= 0.11.0
+- Pillow >= 9.0.0
+- tqdm >= 4.64.0
+#### 0-2. AIhub dataset
 <details>
 <summary><strong>[Click to expand]</strong></summary>
 This project uses a wildlife image dataset provided by AIHub, a public data platform operated by the Korean government.  
-Due to license and privacy restrictions, the dataset is 
-**not included in this repository**
-and must be downloaded manually by the user.
+Due to license and privacy restrictions, the dataset is **not included in this repository** and must be downloaded manually by the user.
 
 - Source: [AIHub - Wildlife Image Dataset](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=645)
 - Description: Images of 11 wild animal species (e.g., boar, roe deer) captured by infrared and normal cameras
