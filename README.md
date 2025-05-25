@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ```
 ### 3. Training (with AIhub data, train 과정이 필요 없다면 바로 4번으로)
 ```
-python3 [파일명(예: train].py [OPTIONS]
+python3 [파일명(예: train)].py [OPTIONS]
 ```
 |Argument|Type|Default|Description|
 |-----|-----|-----|-----|
