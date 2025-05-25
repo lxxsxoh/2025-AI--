@@ -1,6 +1,7 @@
 # 2025-AI-캡스톤
 ## Overview
 ResNet18 모델 사용한 고라니와 노루 fine-grained and data imbalance 문제 해결
+
 (고라니) : (노루)의 비율을 1:1 ~ 1:0.001 까지 감소시키면서 imbalance 한 상황에서 train, test
 ## Process
 ### 0. Installation
@@ -73,6 +74,7 @@ python3 [파일명(예: train)].py [OPTIONS]
 |--ratio|string|1:1|고라니 대 노루 데이터 비율|
 |--contrastive|||constrastive 사용 여부|
 |--oversampling|||oversampling 사용 여부|
+> The experiment should be conducted under the following five ratio conditions: 1:1, 1:0.1, 1:0.01, 1:0.005, and 1:0.001.
 ### 4. Test Using pretrained model (별도의 train 없이 pretrained model 사용하여 test만)
 > test 폴더 구성
 ```
@@ -100,6 +102,7 @@ python3 [파일명(예: test)].py [OPTIONS]
 |--ratio|string|1:1|고라니 대 노루 데이터 비율|
 |--contrastive|||constrastive 사용 여부|
 |--oversampling|||oversampling 사용 여부|
+> The experiment should be conducted under the following five ratio conditions: 1:1, 1:0.1, 1:0.01, 1:0.005, and 1:0.001.
 ### 5. Result Example
 `
 코드 파일 만들어지면 돌려보고 accuracy 측정되는 거 캡쳐해서 올리기?
