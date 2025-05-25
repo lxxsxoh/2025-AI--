@@ -6,8 +6,12 @@ ResNet18 모델 사용한 고라니와 노루 fine-grained and data imbalance �
 ```
 git clone https://github.com/lxxsxoh/Test-using-ResNet18-for-fine-grained-problem.git
 ```
-### 2. 폴더 확인
-```cd ```
+### 2. 폴더 확인, 접속
+```
+ls Test-using-ResNet18-for-fine-grained-problem
+
+cd Test-using-ResNet18-for-fine-grained-problem
+```
 ### 3. Training
 #### 3-1.
 #### 3-2. Test Using pretrained model
