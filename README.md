@@ -70,6 +70,17 @@ python3 [파일명(예: train)].py [OPTIONS]
 |--contrastive|||constrastive 사용 여부|
 |--oversampling|||oversampling 사용 여부|
 ### 4. Test Using pretrained model (별도의 train 없이 pretrained model 사용하여 test만)
+> test 폴더 구성
+```
+project_root/
+  ├── data/
+  │ ├── test/
+  │ │ ├── boar/
+  │ │ ├── roe_deer/
+  │ │ └── ...
+  │ ├── train/
+  │ └── valid/
+```
 ```
 python3 [파일명(예: test)].py [OPTIONS]
 ```
@@ -84,17 +95,6 @@ python3 [파일명(예: test)].py [OPTIONS]
 |--ratio|string|1:1|고라니 대 노루 데이터 비율|
 |--contrastive|||constrastive 사용 여부|
 |--oversampling|||oversampling 사용 여부|
-#### 4-1. test 폴더 구성
-```
-project_root/
-  ├── data/
-  │ ├── test/
-  │ │ ├── boar/
-  │ │ ├── roe_deer/
-  │ │ └── ...
-  │ ├── train/
-  │ └── valid/
-```
 ### 5. Result Example
 `
 코드 파일 만들어지면 돌려보고 accuracy 측정되는 거 캡쳐해서 올리기?
