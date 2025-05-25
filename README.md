@@ -26,10 +26,10 @@ After extracting the dataset, please organize it as follows:
 project_root/
 >data/
 >  >train/
->  >  >class_01_boar/
->  >  >class_02_roe_deer/
 >  >valid/
 >  >test/
+>  >  >class_01_boar/
+>  >  >class_02_roe_deer/
 
 ※ You may need to manually split the data into train/validation/test sets and rename folders accordingly.  
 ※ If a preprocessing script (e.g., `prepare_dataset.py`) is provided, you can automate this step.
