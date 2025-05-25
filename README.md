@@ -21,9 +21,7 @@ cd Test-using-ResNet18-for-fine-grained-problem
 ```
 #### 3-2. train
 ```
-```
-python3 [파일명(예: train].py [OPTIONS]
-```
+```python3 [파일명(예: train].py [OPTIONS]
 ```
 |Argument|Type|Default|Description|
 |-----|-----|-----|-----|
@@ -34,9 +32,7 @@ python3 [파일명(예: train].py [OPTIONS]
 |--비율|int|1|고라니 대비 노루 데이터 비율(또는 수?)|
 ### 4. Test Using pretrained model (별도의 train 없이 pretrianed model 사용하여 test만)
 ```
-```
-python3 [파일명(예: test)].py [OPTIONS]
-```
+```python3 [파일명(예: test)].py [OPTIONS]
 ```
 |Argument|Type|Default|Description|
 |-----|-----|-----|-----|
