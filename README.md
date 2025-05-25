@@ -31,13 +31,13 @@ project_root/
 >  >  > ...
 >  >valid/
 >  >test/
+
 ※ You may need to manually split the data into train/validation/test sets and rename folders accordingly.  
 ※ If a preprocessing script (e.g., `prepare_dataset.py`) is provided, you can automate this step.
-</details>
 ##### 3) License Notice
 This dataset is provided **for non-commercial, research purposes only**.  
 Please make sure to review and comply with the AIHub [Terms of Use](https://www.aihub.or.kr/guide/terms) before using the data in your project or publication.
-
+</details>
 ### 1. git clone
 ```
 git clone https://github.com/lxxsxoh/Test-using-ResNet18-for-fine-grained-problem.git
