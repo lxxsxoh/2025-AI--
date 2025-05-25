@@ -7,9 +7,6 @@ ResNet18 모델 사용한 고라니와 노루 fine-grained and data imbalance �
 python3나 필요한 것들 다운하는 명령어
 `
 #### 0-1. Requirements
-```
-pip install -r requirements.txt
-```
 - Python 3.10.12
 - PyTorch >= 1.13.0
 - torchvision >= 0.14.0
@@ -54,9 +51,12 @@ git clone https://github.com/lxxsxoh/Test-using-ResNet18-for-fine-grained-proble
 ls Test-using-ResNet18-for-fine-grained-problem
 ```
 ### 3. Training (with AIhub data, trian 과정이 필요 없다면 바로 4번으로)
-#### 3-1. 폴더 접속
+#### 3-1. 폴더 접속, requirements 다운
 ```
 cd Test-using-ResNet18-for-fine-grained-problem
+```
+```
+pip install -r requirements.txt
 ```
 #### 3-2. train
 ```
