@@ -10,7 +10,7 @@ ResNet18 모델 사용한 고라니와 노루 fine-grained and data imbalance �
 - torchmetrics >= 0.11.0
 - Pillow >= 9.0.0
 - tqdm >= 4.64.0
-> All necessary packages are listed in `requirements.txt`.
+> All necessary packages are listed in `requirements.txt`. You can download and install it by following the instructions later in this README.
 #### 0-2. AIhub Dataset
 <details>
 <summary><strong>[Click to expand]</strong></summary>
