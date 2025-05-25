@@ -23,7 +23,6 @@ Due to license and privacy restrictions, the dataset is **not included in this r
 
 ##### 2) Directory structure (example)
 After extracting the dataset, please organize it as follows:
-<pre><code>
 ``` 
 project_root/
   ├── data/
@@ -34,7 +33,6 @@ project_root/
   │ ├── valid/
   │ └── test/ 
 ```
-</code></pre>
 ※ You may need to manually split the data into train/validation/test sets and rename folders accordingly.  
 ※ If a preprocessing script (e.g., `prepare_dataset.py`) is provided, you can automate this step.
 ##### 3) License Notice
