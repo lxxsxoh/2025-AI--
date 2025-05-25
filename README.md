@@ -46,19 +46,17 @@ project_root/
 ```
 git clone https://github.com/lxxsxoh/Test-using-ResNet18-for-fine-grained-problem.git
 ```
-### 2. 폴더 확인
+### 2. 폴더 확인, requiremet 다운
 ```
 ls Test-using-ResNet18-for-fine-grained-problem
 ```
-### 3. Training (with AIhub data, trian 과정이 필요 없다면 바로 4번으로)
-#### 3-1. 폴더 접속, requirements 다운
 ```
 cd Test-using-ResNet18-for-fine-grained-problem
 ```
 ```
 pip install -r requirements.txt
 ```
-#### 3-2. train
+### 3. Training (with AIhub data, trian 과정이 필요 없다면 바로 4번으로)
 ```
 python3 [파일명(예: train].py [OPTIONS]
 ```
