@@ -1,6 +1,8 @@
 # 2025-AI-캡스톤
 ## Overview
 ResNet18 모델 사용한 고라니와 노루 fine-grained and data imbalance 문제 해결
+
+(고라니):(노루)의 비율을 1:1 ~ 1:0.001 까지 감소시키면서 imbalance 한 상황에서 train, test
 ## Process
 ### 0. Installation
 #### 0-1. Requirements
