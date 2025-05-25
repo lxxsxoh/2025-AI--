@@ -61,23 +61,29 @@ python3 [파일명(예: train)].py [OPTIONS]
 ```
 |Argument|Type|Default|Description|
 |-----|-----|-----|-----|
-|--train_data_root|path|Default|train data 가져올 경로|
+|--train_data_root|string||train data 가져올 경로|
+|--classes|string||분류할 class|
 |--num_classes|int|2|분류할 class 수|
 |--batch_size|int|64|배치사이즈|
 |--num_workers|int|4|사용할 core 수|
-|--비율|int|1|고라니 대비 노루 데이터 비율(또는 수?)|
+|--ratio|string|1:1|고라니 대 노루 데이터 비율|
+|--contrastive|||constrastive 사용 여부|
+|--oversampling|||oversampling 사용 여부|
 ### 4. Test Using pretrained model (별도의 train 없이 pretrained model 사용하여 test만)
 ```
 python3 [파일명(예: test)].py [OPTIONS]
 ```
 |Argument|Type|Default|Description|
 |-----|-----|-----|-----|
-|--model_path|path|Default|pretrained weight 가져올 경로|
-|--test_data_root|path|Default|train data 가져올 경로|
+|--model_path|string||pretrained weight 가져올 경로|
+|--test_data_root|string||train data 가져올 경로|
+|--classes|string||분류할 class|
 |--num_classes|int|2|분류할 class 수|
 |--batch_size|int|64|배치사이즈|
 |--num_workers|int|4|사용할 core 수|
-|--비율|int|1|고라니 대비 노루 데이터 비율(또는 수?)|
+|--ratio|string|1:1|고라니 대 노루 데이터 비율|
+|--contrastive|||constrastive 사용 여부|
+|--oversampling|||oversampling 사용 여부|
 ### 5. Result Example
 `
 코드 파일 만들어지면 돌려보고 accuracy 측정되는 거 캡쳐해서 올리기?
