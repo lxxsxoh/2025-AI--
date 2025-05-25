@@ -14,7 +14,7 @@ ResNet18 모델 사용한 고라니와 노루 fine-grained and data imbalance �
 > You can download and install it by following the instructions later in this README.
 #### 0-2. AIhub Dataset
 <details>
-<summary><strong>[Click to expand]</strong></summary>
+<summary><strong>[See details]</strong></summary>
 This project uses a wildlife image dataset provided by AIHub, a public data platform operated by the Korean government.  
 Due to license and privacy restrictions, the dataset is **not included in this repository** and must be downloaded manually by the user.
 
