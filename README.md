@@ -28,8 +28,6 @@ project_root/
 >  >train/
 >  >  >class_01_boar/
 >  >  >class_02_roe_deer/
-
->  >  > ...
 >  >valid/
 >  >test/
 
