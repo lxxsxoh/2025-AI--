@@ -4,14 +4,12 @@ ResNet18 모델 사용한 고라니와 노루 fine-grained and data imbalance �
 ## Process
 ### 0. Installation
 #### 0-1. Requirements
-`
 - Python 3.10.12
 - PyTorch >= 1.13.0
 - torchvision >= 0.14.0
 - torchmetrics >= 0.11.0
 - Pillow >= 9.0.0
 - tqdm >= 4.64.0
-`
 > All necessary packages are listed in `requirements.txt`.
 #### 0-2. AIhub Dataset
 <details>
