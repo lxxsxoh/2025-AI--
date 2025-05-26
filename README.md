@@ -110,6 +110,13 @@ project_root/
 ```
 python3 validation.py [OPTIONS]
 ```
+> test example
+```
+python3 test2.py \
+  --model_root ./trained_model/base \
+  --test_data_root ./dataset/valid \
+  --classes class_01_boar class_02_roe_deer
+```
 |Argument|Type|Default|Description|
 |-----|-----|-----|-----|
 |--model_root|string||pretrained weight 가져올 경로(.pth 파일의 경로)|
