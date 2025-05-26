@@ -67,13 +67,10 @@ python3 train.py [OPTIONS]
 |Argument|Type|Default|Description|
 |-----|-----|-----|-----|
 |--train_data_root|string||train data 가져올 경로|
-|--classes|string||분류할 class|
-|--num_classes|int|2|분류할 class 수|
+|--ratio|string|1:1|고라니 대 노루 비율|
+|--classes|int|2|분류할 class 수|
 |--batch_size|int|64|배치사이즈|
 |--num_workers|int|4|사용할 core 수|
-|--ratio|string|1:1|고라니 대 노루 데이터 비율|
-|--contrastive|||constrastive 사용 여부|
-|--oversampling|||oversampling 사용 여부|
 > The experiment should be conducted under the following five ratio conditions: 1:1, 1:0.1, 1:0.01, 1:0.005, and 1:0.001.
 ### 4. Test Using pretrained model (별도의 train 없이 pretrained model 사용하여 test만)
 > pth 파일 사용
@@ -115,15 +112,10 @@ python3 validation.py [OPTIONS]
 ```
 |Argument|Type|Default|Description|
 |-----|-----|-----|-----|
-|--model_path|string||pretrained weight 가져올 경로(.pth 파일의 경로)|
-|--test_data_root|string||train data 가져올 경로|
+|--model_root|string||pretrained weight 가져올 경로(.pth 파일의 경로)|
+|--test_data_root|string||test data 가져올 경로|
 |--classes|string||분류할 class|
-|--num_classes|int|2|분류할 class 수|
 |--batch_size|int|64|배치사이즈|
-|--num_workers|int|4|사용할 core 수|
-|--ratio|string|1:1|고라니 대 노루 데이터 비율|
-|--contrastive|||constrastive 사용 여부|
-|--oversampling|||oversampling 사용 여부|
 > The experiment should be conducted under the following five ratio conditions: 1:1, 1:0.1, 1:0.01, 1:0.005, and 1:0.001.
 ### 5. Result Example
 최종적으로, 총 4개의 모델 각각에 대해 5가지 데이터 비율 조건에서의 실험 결과가 도출되어야 한다.
