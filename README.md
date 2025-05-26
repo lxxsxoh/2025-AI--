@@ -110,7 +110,7 @@ python3 validation.py [OPTIONS]
 ```
 > test example
 ```
-python3 test2.py \
+python3 validation.py \
   --model_root ./trained_model/base \
   --test_data_root ./dataset/valid \
   --classes class_01_boar class_02_roe_deer
