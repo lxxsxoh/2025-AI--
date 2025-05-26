@@ -31,7 +31,7 @@ Due to license and privacy restrictions, the dataset is **not included in this r
 
 ##### 2) Directory structure (example)
 After extracting the dataset, please organize it as follows:
-`
+```
 project_root/
   ├── data/
   │ ├── train/
@@ -40,7 +40,7 @@ project_root/
   │ │ └── ...
   │ ├── valid/
   │ └── test/
-`
+```
 </details>
 
 ### 1. git clone
@@ -79,6 +79,7 @@ python3 train.py [OPTIONS]
 > pth 파일 사용
 
 사전학습(pretraining)은 AIHub 데이터셋을 기반으로 수행되었으며, 해당 모델의 최적 가중치 best_model.pth에 저장되어 있다. 본 실험에서는 이를 활용하여 테스트 단계만을 수행한다.
+
 **1:1 모델 실험을 우선적으로 부탁드립니다.**
 
 > pth 폴더 구성
