@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ```
 ### 3. Training (with AIhub data, train 과정이 필요 없다면 바로 4번으로)
 ```
-python3 [파일명(예: train)].py [OPTIONS]
+python3 train.py [OPTIONS]
 ```
 |Argument|Type|Default|Description|
 |-----|-----|-----|-----|
@@ -79,6 +79,24 @@ python3 [파일명(예: train)].py [OPTIONS]
 > pth 파일 사용
 
 사전학습(pretraining)은 AIHub 데이터셋을 기반으로 수행되었으며, 해당 모델의 최적 가중치 best_model.pth에 저장되어 있다. 본 실험에서는 이를 활용하여 테스트 단계만을 수행한다.
+**1:1 모델 실험을 우선적으로 부탁드립니다.**
+
+> pth 폴더 구성
+```
+trained_model/
+  ├── base/
+  │   ├── best_model(1:1).pth
+  │   ├── best_model(1:0.1).pth
+  │   ├── best_model(1:0.01).pth
+  │   ├── best_model(1:0.005).pth
+  │   └── best_model(1:0.001).pth
+  ├── cont/
+  │   └── best_model(1:0.1).pth
+  ├── over/
+  │   └── best_model(1:0.01).pth
+  └── over+con/
+      └── best_model(1:1).pth
+```
 > 요구되는 test 폴더 구성
 ```
 project_root/
@@ -92,11 +110,11 @@ project_root/
 ```
 > test
 ```
-python3 [파일명(예: test)].py [OPTIONS]
+python3 validation.py [OPTIONS]
 ```
 |Argument|Type|Default|Description|
 |-----|-----|-----|-----|
-|--model_path|string||pretrained weight 가져올 경로|
+|--model_path|string||pretrained weight 가져올 경로(.pth 파일의 경로)|
 |--test_data_root|string||train data 가져올 경로|
 |--classes|string||분류할 class|
 |--num_classes|int|2|분류할 class 수|
@@ -107,6 +125,7 @@ python3 [파일명(예: test)].py [OPTIONS]
 |--oversampling|||oversampling 사용 여부|
 > The experiment should be conducted under the following five ratio conditions: 1:1, 1:0.1, 1:0.01, 1:0.005, and 1:0.001.
 ### 5. Result Example
-`
-코드 파일 만들어지면 돌려보고 accuracy 측정되는 거 캡쳐해서 올리기?
-`
+> baseline
+![image](https://github.com/user-attachments/assets/420774f3-7ec0-4f00-90ac-5be11ae6e6fc)
+> over+con
+![image](https://github.com/user-attachments/assets/328779f7-7f65-40f1-825c-4b4d335787e0)
