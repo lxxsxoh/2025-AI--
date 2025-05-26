@@ -76,6 +76,8 @@ python3 [파일명(예: train)].py [OPTIONS]
 |--oversampling|||oversampling 사용 여부|
 > The experiment should be conducted under the following five ratio conditions: 1:1, 1:0.1, 1:0.01, 1:0.005, and 1:0.001.
 ### 4. Test Using pretrained model (별도의 train 없이 pretrained model 사용하여 test만)
+> pth 파일 사용
+사전학습(pretraining)은 AIHub 데이터셋을 기반으로 수행되었으며, 해당 모델의 최적 가중치 best_model.pth에 저장되어 있다. 본 실험에서는 이를 활용하여 테스트 단계만을 수행한다.
 > test 폴더 구성
 ```
 project_root/
