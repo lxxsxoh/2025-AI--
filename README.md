@@ -77,8 +77,6 @@ python3 train.py [OPTIONS]
 
 사전학습(pretraining)은 AIHub 데이터셋을 기반으로 수행되었으며, 해당 모델의 최적 가중치 best_model.pth에 저장되어 있다. 본 실험에서는 이를 활용하여 테스트 단계만을 수행한다.
 
-**1:1 모델 실험을 우선적으로 부탁드립니다.**
-
 > pth 폴더 구성
 ```
 trained_model/
@@ -97,8 +95,8 @@ trained_model/
 ```
 > 요구되는 test 폴더 구성
 ```
-project_root/
-  ├── data/
+Test-using-ResNet18-for-fine-grained-problem/
+  ├── dataset/
   │ ├── test/
   │ │ ├── boar/
   │ │ ├── roe_deer/
