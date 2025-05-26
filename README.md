@@ -31,7 +31,7 @@ Due to license and privacy restrictions, the dataset is **not included in this r
 
 ##### 2) Directory structure (example)
 After extracting the dataset, please organize it as follows:
-```
+`
 project_root/
   ├── data/
   │ ├── train/
@@ -40,7 +40,7 @@ project_root/
   │ │ └── ...
   │ ├── valid/
   │ └── test/
-```
+`
 </details>
 
 ### 1. git clone
