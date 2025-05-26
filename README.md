@@ -111,7 +111,7 @@ python3 validation.py [OPTIONS]
 python3 validation.py \
   --model_root ./trained_model/base \
   --test_data_root ./dataset/valid \
-  --classes class_01_boar class_02_roe_deer
+  --classes boar roe_deer
 ```
 |Argument|Type|Default|Description|
 |-----|-----|-----|-----|
