@@ -79,7 +79,7 @@ python3 [파일명(예: train)].py [OPTIONS]
 > pth 파일 사용
 
 사전학습(pretraining)은 AIHub 데이터셋을 기반으로 수행되었으며, 해당 모델의 최적 가중치 best_model.pth에 저장되어 있다. 본 실험에서는 이를 활용하여 테스트 단계만을 수행한다.
-> test 폴더 구성
+> 요구되는 test 폴더 구성
 ```
 project_root/
   ├── data/
