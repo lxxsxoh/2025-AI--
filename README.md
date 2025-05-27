@@ -14,7 +14,7 @@ ResNet18 모델 사용한 고라니와 노루 fine-grained and data imbalance �
 - tqdm >= 4.64.0
 > All necessary packages are listed in `requirements.txt`.
 > You can download and install it by following the instructions later in this README.
-#### 0-2. AIhub Dataset
+#### 0-2. AIhub Dataset (Train Dataset)
 <details>
 <summary><strong>[See details]</strong></summary>
 This project uses a wildlife image dataset provided by AIHub, a public data platform operated by the Korean government.  
@@ -91,7 +91,7 @@ trained_model/
   └── over+con/
       └── best_model(1:1).pth
 ```
-> 요구되는 test 폴더 구성
+> 요구되는 test 폴더 구성 (각 클래스 별 2,000장)
 ```
 Test-using-ResNet18-for-fine-grained-problem/
   ├── dataset/
