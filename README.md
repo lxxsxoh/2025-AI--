@@ -122,6 +122,11 @@ python3 validation.py \
 > The experiment should be conducted under the following five ratio conditions: 1:1, 1:0.1, 1:0.01, 1:0.005, and 1:0.001.
 ### 5. Result Example
 최종적으로, 총 4개의 모델 **(baseline, Over, Con, Over+Con)** 각각에 대해 5가지 데이터 비율 **(1:1, 1:0.1, 1:0.01, 1:0.005, 1:0.001)** 조건에서의 실험 결과가 도출되어야 한다.
+> 결과 저장 경로
+```
+[--model_root]/result_log.txt
+```
+
 > Example
 >  >baseline
 ![image](https://github.com/user-attachments/assets/420774f3-7ec0-4f00-90ac-5be11ae6e6fc)
