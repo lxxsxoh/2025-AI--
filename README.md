@@ -91,7 +91,7 @@ trained_model/
   └── over+con/
       └── best_model(1:1).pth
 ```
-> 요구되는 test 폴더 구성 (각 클래스 별 2,000장)
+> 요구되는 test 폴더 구성 **(각 클래스 별 2,000장)**
 ```
 Test-using-ResNet18-for-fine-grained-problem/
   ├── dataset/
