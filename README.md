@@ -116,7 +116,7 @@ python3 test.py [OPTIONS]
 > test example
 ```
 python3 test.py \
-  --model_root ./trained_model/base \
+  --model_root ./trained_model/ \
   --test_data_root ./dataset/valid \
   --classes boar roe_deer
 ```
