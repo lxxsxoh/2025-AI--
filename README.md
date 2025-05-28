@@ -86,17 +86,17 @@ python3 validation.py [OPTIONS]
 ```
 trained_model/
   ├── base/
-  │   ├── best_model(1:1).pth
-  │   ├── best_model(1:0.1).pth
-  │   ├── best_model(1:0.01).pth
-  │   ├── best_model(1:0.005).pth
-  │   └── best_model(1:0.001).pth
+  │   ├── best_model(1).pth
+  │   ├── best_model(0.1).pth
+  │   ├── best_model(0.01).pth
+  │   ├── best_model(0.005).pth
+  │   └── best_model(0.001).pth
   ├── cont/
-  │   └── best_model(1:0.1).pth
+  │   └── best_model(0.1).pth
   ├── over/
-  │   └── best_model(1:0.01).pth
+  │   └── best_model(0.01).pth
   └── over+con/
-      └── best_model(1:1).pth
+      └── best_model(1).pth
 ```
 > 요구되는 test 폴더 구성 **(각 클래스 별 2,000장, Image Size 최소 224X224)**
 ```
