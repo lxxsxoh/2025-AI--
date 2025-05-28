@@ -61,6 +61,8 @@ cd Test-using-ResNet18-for-fine-grained-problem
 pip install -r requirements.txt
 ```
 ### 3. Training (with AIhub data, train 과정이 필요 없다면 바로 4번으로)
+> train
+
 ```
 python3 train.py [OPTIONS]
 ```
@@ -69,6 +71,11 @@ python3 train.py [OPTIONS]
 |--train_data_root|string||train data 가져올 경로|
 |--ratio|string|1:1|고라니 대 노루 비율|
 |--classes|int|2|분류할 class 수|
+
+> validation
+```
+python3 validation.py [OPTIONS]
+```
 > The experiment should be conducted under the following five ratio conditions: 1:1, 1:0.1, 1:0.01, 1:0.005, and 1:0.001.
 ### 4. Test Using pretrained model (별도의 train 없이 pretrained model 사용하여 test만)
 > pth 파일 사용
@@ -104,11 +111,11 @@ Test-using-ResNet18-for-fine-grained-problem/
 ```
 > test
 ```
-python3 validation.py [OPTIONS]
+python3 test.py [OPTIONS]
 ```
 > test example
 ```
-python3 validation.py \
+python3 test.py \
   --model_root ./trained_model/base \
   --test_data_root ./dataset/valid \
   --classes boar roe_deer
