@@ -76,6 +76,11 @@ python3 train.py [OPTIONS]
 ```
 python3 validation.py [OPTIONS]
 ```
+|Argument|Type|Default|Description|
+|-----|-----|-----|-----|
+|--model_root|string||pretrained weight 가져올 경로(.pth 파일의 경로)|
+|--test_data_root|string||valid data 가져올 경로|
+|--classes|int|2|분류할 class 수|
 > The experiment should be conducted under the following five ratio conditions: 1:1, 1:0.1, 1:0.01, 1:0.005, and 1:0.001.
 ### 4. Test Using pretrained model (별도의 train 없이 pretrained model 사용하여 test만)
 > pth 파일 사용
