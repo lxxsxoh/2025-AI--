@@ -108,7 +108,7 @@ trained_model/
 Test-using-ResNet18-for-fine-grained-problem/
   ├── dataset/
   │ ├── test/
-  │ │ ├── boar/
+  │ │ ├── water_deer/
   │ │ ├── roe_deer/
   │ │ └── ...
   │ ├── train/
@@ -123,7 +123,7 @@ python3 test.py [OPTIONS]
 python3 test.py \
   --model_root ./trained_model/ \
   --test_data_root ./dataset/valid \
-  --classes boar roe_deer
+  --classes water_deer roe_deer
 ```
 |Argument|Type|Default|Description|
 |-----|-----|-----|-----|
